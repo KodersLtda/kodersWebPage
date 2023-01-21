@@ -269,7 +269,7 @@ Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 768px) {
 	.site-navbar .sub-menu {
-		background: #f1f1f1;
+		background: #EFECEC;
 		padding: 0;
 		position: absolute;
 		top: 100%;
@@ -406,7 +406,7 @@ Small devices (landscape phones, 576px and up) */
 	.site-navbar ul {
 		width: 100%;
 		bottom: 0;
-		background: #f1f1f1;
+		background: #EFECEC;
 	}
 
 	.dark-theme .site-navbar ul {
@@ -415,7 +415,7 @@ Small devices (landscape phones, 576px and up) */
 
 	.site-navbar ul.sub-menu {
 		display: none;
-		background: #f1f1f1;
+		background: #EFECEC;
 	}
 
 	.dark-theme .site-navbar ul.sub-menu {
@@ -425,8 +425,8 @@ Small devices (landscape phones, 576px and up) */
 
 	.site-navbar ul li {
 		width: 100%;
-		border-bottom: 1px solid #f1f1f1;
-		background-color: #f1f1f1;
+		border-bottom: 1px solid #EFECEC;
+		background-color: #EFECEC;
 	}
 
 	.dark-theme .site-navbar ul li {
@@ -437,11 +437,11 @@ Small devices (landscape phones, 576px and up) */
 
 	.site-navbar ul li a {
 		color: black;
-		background: #f1f1f1;
+		background: #EFECEC;
 	}
 
 	.dark-theme .site-navbar ul li a {
-		color: #f1f1f1;
+		color: #EFECEC;
 		background: #1E1559;
 	}
 
@@ -449,7 +449,7 @@ Small devices (landscape phones, 576px and up) */
 		font-weight: bold;
 		cursor: default;
 		padding: 0.75rem;
-		background: #f1f1f1;
+		background: #EFECEC;
 	}
 	.dark-theme .site-navbar > ul > li > a {
 		font-weight: bold;
@@ -556,11 +556,12 @@ Small devices (landscape phones, 576px and up) */
 }
 
 .navbar-scroll.scrolled {
-	background-color: #f1f1f1 !important;
+	background: linear-gradient(0.25turn, #241651, #3D1B4D, #570F35) !important;
 	transition: background-color 900ms linear;
 }
 
 .dark-theme .navbar-scroll.scrolled {
-	background-color: #1E1559 !important;
+	background: linear-gradient(0.25turn, #241651, #3D1B4D, #570F35) !important;
 	transition: background-color 500ms linear;
+
 }
