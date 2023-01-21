@@ -1,0 +1,18 @@
+.img-responsive{
+  width: 100px;
+  height: auto;
+}
+.title-header{
+  font-weight: 500;
+}
+
+.dark-theme h1{
+  color: #EFECEC;
+}
+
+.dark-theme p{
+  color: #EFECEC;
+}
+body.dark-theme{
+  background: linear-gradient(0.25turn, #241651, #3D1B4D, #570F35);
+}
