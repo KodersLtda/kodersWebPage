@@ -57,7 +57,7 @@
             </li>
 
             <li class="cool-link">
-              <a href="#" rel="noreferrer noopener">Cont&aacute;ctanos</a>
+              <a href="#contactanos" rel="noreferrer noopener">Cont&aacute;ctanos</a>
             </li>
             <li class="d-flex align-items-center style-darkmode">
               <img
@@ -376,10 +376,63 @@
         </div>
       </section>
       <section id="contactanos">
-        <div class="container-fluid">
-          <div class="row wrapper">
+        <div class="container-fluid bg-gray py-5 mt-5">
+          <div class="row wrapper justify-content-center">
             <div class="col-12">
-              Contactanos
+              <p class="h2 text-center">Contáctanos</p>
+            </div>
+            <div class="col-10">
+              <form class="row g-3">
+                <div class="col-12">
+                  <label for="name" class="form-label">Nombre</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder=""
+                  />
+                </div>
+                <div class="col-md-6">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" />
+                </div>
+                <div class="col-md-6">
+                  <label for="enterprise" class="form-label">Empresa</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="enterprise"
+                    placeholder=""
+                  />
+                </div>
+                <div class="col-12">
+                  <label for="description" class="form-label"></label>
+                    Cuentános que necesitas
+                  </label>
+                  <textarea
+                    type="textarea"
+                    class="form-control"
+                    id="description"
+                    placeholder=""
+                  >
+                  </textarea>
+                </div>
+                <div class="col-12 text-center">
+                  <button type="submit" class="btn btn-primary text-center px-5">Enviar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="footer">
+        <div class="container-fluid bgd-blue py-2">
+          <div class="row wrapper">
+            <div class="col-10 d-flex justify-content-around align-items-baseline">
+              <img src="assets/img/kodersLogo.svg" alt="" srcset="" class="img-responsive">
+              <p class="small text-white m-0">
+                © <span id="year"></span> Koders Ltda.
+              </p>
             </div>
           </div>
         </div>
@@ -393,6 +446,11 @@
     <script src="assets/js/aos.js"></script>
     <script>
       AOS.init();
+    </script>
+    <!--===================== YEARS =====================-->
+    <script defer>
+      let fecha = new Date();
+      document.getElementById("year").innerHTML = fecha.getFullYear();
     </script>
   </body>
 </html>
