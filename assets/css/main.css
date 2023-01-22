@@ -2,7 +2,12 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: #EFECEC;
 }
-@media (min-width: 768px) {
+.wrapper{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+@media (min-width: 768px) 
+{
 	.wrapper {
 		max-width: 1024px;
 		margin-left: auto;
