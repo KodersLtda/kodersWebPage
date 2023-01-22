@@ -53,3 +53,6 @@ body{
     background-color: #1E1559;
 }
 
+.bgd-blue{
+    background: linear-gradient(0.25turn, #1414B3, #077BC8);
+}
