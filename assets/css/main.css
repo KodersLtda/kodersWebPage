@@ -2,13 +2,16 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: #EFECEC;
 }
-
 @media (min-width: 768px) {
 	.wrapper {
 		max-width: 1024px;
 		margin-left: auto;
 		margin-right: auto;
 	}
+}
+.img-reponsive-tecnology{
+    width: 60%;
+    max-height: auto;
 }
 @media (max-width: 768px) {
     .carousel-caption {
@@ -20,6 +23,10 @@ body{
         padding-bottom: 0.5rem;
         color: #fff;
         width: 75%;
+    }
+    .img-reponsive-tecnology{
+        width: 50%;
+        max-height: auto;
     }
 }
 
@@ -39,3 +46,10 @@ body{
     max-width: 80%;
     height: 80%;
 }
+.bg-gray{
+    background-color: #9fa4aa;
+}
+.dark-theme .bg-gray{
+    background-color: #1E1559;
+}
+

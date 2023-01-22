@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="126.404" height="112.957" viewBox="0 0 126.404 112.957">
+  <defs>
+    <linearGradient id="linear-gradient" x2="0.807" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1414b3"/>
+      <stop offset="1" stop-color="#077bc8"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_81" data-name="Grupo 81" transform="translate(-164.852 -1555)">
+    <path id="Trazado_24" data-name="Trazado 24" d="M-533.67-244.758h-50.2a13.007,13.007,0,0,0-11.263,6.5l-25.1,43.473a13,13,0,0,0,0,13.005l25.1,43.473a13.014,13.014,0,0,0,11.263,6.5h50.2a13.01,13.01,0,0,0,11.263-6.5l25.1-43.473a13.015,13.015,0,0,0,0-13.005l-25.1-43.473A13,13,0,0,0-533.67-244.758Z" transform="translate(786.823 1799.758)" fill="url(#linear-gradient)"/>
+    <path id="Icon_material-computer" data-name="Icon material-computer" d="M36.052,31.236a3.6,3.6,0,0,0,3.587-3.605l.018-18.026A3.616,3.616,0,0,0,36.052,6H7.21A3.616,3.616,0,0,0,3.605,9.605V27.631A3.616,3.616,0,0,0,7.21,31.236H0v3.605H43.262V31.236ZM7.21,9.605H36.052V27.631H7.21Z" transform="translate(205.711 1591.06)" fill="#efecec"/>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="126.404" height="112.957" viewBox="0 0 126.404 112.957">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.211" y1="-0.106" x2="0.804" y2="1.091" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1414b3"/>
+      <stop offset="1" stop-color="#077bc8"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_82" data-name="Grupo 82" transform="translate(-164.852 -1779.439)">
+    <path id="Trazado_26" data-name="Trazado 26" d="M-533.67-244.758h-50.2a13.007,13.007,0,0,0-11.263,6.5l-25.1,43.473a13,13,0,0,0,0,13.005l25.1,43.473a13.014,13.014,0,0,0,11.263,6.5h50.2a13.01,13.01,0,0,0,11.263-6.5l25.1-43.473a13.015,13.015,0,0,0,0-13.005l-25.1-43.473A13,13,0,0,0-533.67-244.758Z" transform="translate(786.823 2024.197)" fill="url(#linear-gradient)"/>
+    <g id="Icon_feather-database" data-name="Icon feather-database" transform="translate(208.115 1813.088)">
+      <path id="Trazado_20" data-name="Trazado 20" d="M45.348,9.808c0,3.76-9.144,6.808-20.424,6.808S4.5,13.568,4.5,9.808,13.644,3,24.924,3,45.348,6.048,45.348,9.808Z" transform="translate(-4.5 -3)" fill="none" stroke="#efecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Trazado_21" data-name="Trazado 21" d="M45.348,18c0,3.767-9.077,6.808-20.424,6.808S4.5,21.767,4.5,18" transform="translate(-4.5 4.693)" fill="none" stroke="#efecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Trazado_22" data-name="Trazado 22" d="M4.5,7.5V39.271c0,3.767,9.077,6.808,20.424,6.808s20.424-3.041,20.424-6.808V7.5" transform="translate(-4.5 -0.692)" fill="none" stroke="#efecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

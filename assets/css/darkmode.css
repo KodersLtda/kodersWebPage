@@ -15,4 +15,5 @@
 }
 body.dark-theme{
   background: linear-gradient(0.25turn, #241651, #3D1B4D, #570F35);
+  color: #EFECEC;
 }

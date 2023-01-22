@@ -23,6 +23,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="assets/css/aos.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
   </head>
   <body>
@@ -49,10 +50,10 @@
               <a href="index.html" rel="noreferrer noopener">Inicio</a>
             </li>
             <li class="cool-link">
-              <a href="#" rel="noreferrer noopener">Nosotros</a>
+              <a href="#nosotros" rel="noreferrer noopener">Nosotros</a>
             </li>
             <li class="cool-link">
-              <a href="#" rel="noreferrer noopener">Servicios</a>
+              <a href="#servicios" rel="noreferrer noopener">Servicios</a>
             </li>
 
             <li class="cool-link">
@@ -98,12 +99,14 @@
               />
             </picture>
             <div class="carousel-caption wrapper">
-              <h1 class="text-start">Lleva tus ideas al mundo digital</h1>
-              <p>
-                Te asesoramos y acompañamos en el proceso. Desde las páginas web
-                a soluciones con integraciones con otras plataformas
-                tecnológicas.
-              </p>
+              <p class="h1 text-start">Lleva tus ideas al mundo digital</p>
+              <h5>
+                Te asesoramos y acompañamos en el proceso.
+                <span class="d-none">
+                  Desde las páginas web a soluciones con integraciones con otras
+                  plataformas tecnológicas.
+                </span>
+              </h5>
               <a
                 href="#"
                 target="_blank"
@@ -115,39 +118,179 @@
         </div>
       </div>
     </header>
-    <main class="site-main wrapper">
+    <main class="site-main">
       <!-- Nosotros -->
-      <div class="container-fluid py-5 my-5">
-        <div class="row">
+      <section class="container-fluid py-5 my-5" id="nosotros">
+        <div class="row gx-5 wrapper">
           <div class="col-12 col-md-6">
             <div>
               <h1>
-                ¡Hola! Somos Koders.
+                ¡Hola! <br />
+                Somos Koders.
                 <br />
                 <span class="titleSmall">
                   Nos enfocamos en diseño, desarrollo de sitios web, software y
                   transformación digital. Creamos y diseñamos de acuerdo a tus
-                  necesidades, orientándonos en brindar el mejor servicio y atención
-                  al cliente.
+                  necesidades, orientándonos en brindar el mejor servicio y
+                  atención al cliente.
                 </span>
               </h1>
             </div>
           </div>
           <div class="d-none d-md-flex col-md-6 justify-content-center">
             <img
-              src="/assets/img/hello.png"
+              src="assets/img/hello.png"
               class="img-fluid-height animate__animated animate__bounce animate__repeat-3 animate__slow"
               alt=""
               srcset=""
             />
           </div>
         </div>
-      </div>
+      </section>
+      <section id="servicios">
+        <div class="container-fluid bg-gray py-5 my-5">
+          <div class="row g-5 wrapper">
+            <div class="col-12">
+              <h1>Nuestra misión</h1>
+            </div>
+            <div class="col-12">
+              <h2 class="h5 titleSmall">
+                Nuestra misión es poner al alcance de la pequeña y mediana
+                empresa el acceso al mundo digital. Además asesorarlas en
+                implementación de herramientas
+              </h2>
+            </div>
+            <div class="col-12 col-md-6">
+              <div
+                class="d-flex justify-content-start align-item-center"
+                data-aos="fade-right"
+              >
+                <img src="assets/img/diseño-web.svg" alt="" srcset="" />
+                <div class="ps-2">
+                  <h3 class="h5">Diseño e implementación web</h3>
+                  <p class="fw-light">
+                    Logramos que dar el impluso que tu negocio necesita con
+                    nuestros servicios de diseño, desarrollo e implementación
+                    web.
+                    <span class="fw-normal fst-italic">
+                      Haz volar tu imaginación.
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div
+                class="d-flex justify-content-start align-item-center"
+                data-aos="fade-left"
+                data-aos-delay="500"
+              >
+                <img src="assets/img/sistemas-web.svg" alt="" srcset="" />
+                <div class="ps-2">
+                  <h3 class="h5">Sistemas web</h3>
+                  <p class="fw-light">
+                    Creamos y mantenemos de tu páginas web. Nos encanta estar a
+                    la vanguardia de las tecnologías y así brindar el servicio
+                    que tu necesidades.
+                    <span class="fw-normal fst-italic">
+                      Un gran paso, una gran tecnología.
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div
+                class="d-flex justify-content-start align-item-center"
+                data-aos="fade-right"
+                data-aos-delay="1000"
+              >
+                <img src="assets/img/aplicacion-web.svg" alt="" srcset="" />
+                <div class="ps-2">
+                  <h3 class="h5">Aplicaciones Web</h3>
+                  <p class="fw-light">
+                    Buscamos conectar las ideas, logrando aplicaciones en
+                    transformación constante. Necesitas una tienda virtual, un
+                    portal para tu web o un gestor de contenido.
+                    <span class="fw-normal fst-italic">
+                      En la excelencia está la gracia
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div
+                class="d-flex justify-content-start align-item-center"
+                data-aos="fade-left"
+                data-aos-delay="1200"
+              >
+                <img src="assets/img/asesorias.svg" alt="" srcset="" />
+                <div class="ps-2">
+                  <h3 class="h5">Asesoría en herramientas digitales</h3>
+                  <p class="fw-light">
+                    Guiamos y asesoramos en reconversión digital, ese impluso
+                    para saber más sobre herramientas digitales.
+                    <span class="d-none">
+                      Conocer sobre el entorno digital que te rodea y como ser
+                      parte de éste.
+                    </span>
+                    <span class="fw-normal fst-italic">
+                      Un granito de arena para construir el castillo de mañana.
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="tecnologias">
+        <div class="container-fluid py-5 my-5">
+          <div class="row g-5 wrapper justify-content-md-center">
+            <div class="col-12">
+              <p class="h2 text-center display-6">Algunas de las tecnologías que manejamos</p>
+            </div>
+            <div class="col-4 col-md-2">
+              <img src="assets/img/tecnology/html.svg" alt="" srcset="" class="img-reponsive-tecnology"/>
+            </div>
+            <div class="col-4 col-md-2">
+              <img src="assets/img/tecnology/css.svg" alt="" srcset="" class="img-reponsive-tecnology"/>
+            </div>
+            <div class="col-4 col-md-2">
+              <img src="assets/img/tecnology/java.svg" alt="" srcset="" class="img-reponsive-tecnology"/>
+            </div>
+            <div class="col-4 col-md-2">
+              <img src="assets/img/tecnology/javascript.svg" alt="" srcset="" class="img-reponsive-tecnology"/>
+            </div>
+            <div class="col-4 col-md-2">
+              <img src="assets/img/tecnology/mysql.svg" alt="" srcset="" class="img-reponsive-tecnology"/>
+            </div>
+            <div class="col-4 col-md-2">
+              <img src="assets/img/tecnology/bootstrap.svg" alt="" srcset="" class="img-reponsive-tecnology"/>
+            </div>
+            <div class="col-4 col-md-2">
+              <img src="assets/img/tecnology/oracle.svg" alt="" srcset="" class="img-reponsive-tecnology"/>
+            </div>
+            <div class="col-4 col-md-2">
+              <img src="assets/img/tecnology/vuejs.svg" alt="" srcset="" class="img-reponsive-tecnology"/>
+            </div>
+            <div class="col-4 col-md-2">
+              <img src="assets/img/tecnology/aws.svg" alt="" srcset="" class="img-reponsive-tecnology"/>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="banner"></section>
     </main>
     <div class="site-overlay"></div>
     <script src="assets/js/bootstrap.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/navbar.js"></script>
     <script src="assets/js/darkmode.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
