@@ -3,6 +3,13 @@ body{
     background-color: #EFECEC;
 }
 
+@media (min-width: 768px) {
+	.wrapper {
+		max-width: 1024px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
 @media (max-width: 768px) {
     .carousel-caption {
         position: absolute;
@@ -14,4 +21,21 @@ body{
         color: #fff;
         width: 75%;
     }
+}
+
+.titleSmall {
+    font-size: calc(1.1rem + 0.8vw);
+    font-weight: 300;
+    font-style: italic;
+  }
+
+@media (min-width: 1200px) {
+.titleSmall {
+    font-size: 1.2rem;
+}
+}
+
+.img-fluid-height {
+    max-width: 80%;
+    height: 80%;
 }
