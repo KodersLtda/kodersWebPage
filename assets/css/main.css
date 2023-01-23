@@ -61,3 +61,10 @@ body{
 .bgd-blue{
     background: linear-gradient(0.25turn, #1414B3, #077BC8);
 }
+
+@media screen and (max-width: 875px) {
+    .carousel .carousel-inner .img-header-1 {
+        width: min-content;
+        overflow: hidden;
+    }
+}
