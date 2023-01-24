@@ -1,6 +1,6 @@
 <?php
 $mensaje = "";
-if(isset($_POST['mail'])) {
+if(isset($_POST['email'])) {
 
 	// Debes editar las próximas dos líneas de código de acuerdo con tus preferencias
 	$email_to = "hola@koders.cl";
